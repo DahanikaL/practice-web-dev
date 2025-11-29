@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+.profile-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action-buttons>img {
+    width: 200px;
+    margin-top: 30px;
+}
+.profile-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-pic>i>img {
+    border-radius: 50%;
+    border: 1px solid #d5445d;
+}
+.insta-profile-crad {
+    display: block;
+    border-radius: 15px;
+    padding: 20px 70px 40px;
+    border: 1px solid #291f21b5;
+    box-shadow: 0px 3px 3px #bf8baa;
+}
+h2 {
+    color: #c72185;
+    font-size: 24px;
+    margin-top: 0;
+    text-align: center;
+}
+.like-img {
+    position: absolute;
+    width: 60px;
+    animation: popup 0.6s ease-in-out forwards;
+}
+@keyframes popup {
+  0% { transform: scale(0); opacity: 0; }
+  60% { transform: scale(1.5); opacity: 1; }
+  100% { transform: scale(1.3); }
+}
